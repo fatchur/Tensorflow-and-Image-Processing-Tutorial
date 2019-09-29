@@ -2,7 +2,7 @@
 In this section, we will make a face searcher based on the incoming face feature and face dataset in bigquery.
 
 ## Steps 
-### Then create the cloud function 
+### Create the cloud function 
 - On the spot explanantion
 
 ### Horey, test ypur function now
