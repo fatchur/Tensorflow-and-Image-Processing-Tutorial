@@ -1,0 +1,8 @@
+oauth2client
+google-api-python-client
+opencv-python
+requests
+pillow
+numpy
+google-cloud-pubsub
+google-cloud-bigquery

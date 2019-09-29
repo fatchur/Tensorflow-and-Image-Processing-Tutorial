@@ -1,0 +1,5 @@
+numpy
+google-cloud-bigquery
+google-api-python-client
+oauth2client
+
