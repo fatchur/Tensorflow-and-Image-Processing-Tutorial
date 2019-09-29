@@ -2,7 +2,7 @@
 In this section, we will make a face searcher based on the incoming face feature and face dataset in bigquery.
 
 ## Steps
-### Create Pub/sub topip
+### Create face features table in GBQ
 - open cloud shell ![](assets/create_bq/cloud_shell.png)   
 - horey, now your gcp cloud shell is open ![](assets/create_bq/cloud_shell2.png)
 - then make a folder `telkom/` ==>> `mkdir telkom`
