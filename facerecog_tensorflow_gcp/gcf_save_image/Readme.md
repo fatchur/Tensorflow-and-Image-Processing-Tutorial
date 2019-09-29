@@ -2,15 +2,15 @@
 In this section, we will make a fuction for saving the face image from pubsub to the GCS.
 
 ## Steps
-### Create face image bucket storage (GCS)
-- search and go to `storage`
-- choose `create bucket` on the top section
-- set the name of your face image bucket (MUST unique) 
-
 ### Create cloud pub/sub topic 
 - go to `Pub/Sub`
 - select `create topic` ont the top section
 - SET `save_image` as yout topic name
+
+### Create face image bucket storage (GCS)
+- search and go to `storage`
+- choose `create bucket` on the top section
+- set the name of your face image bucket (MUST unique) 
 
 ### Then create the cloud function (image saver)
 - edit "face_recog_image" in `bucket = client.bucket("face_recog_image")` in `main.py` based on your bucket name
